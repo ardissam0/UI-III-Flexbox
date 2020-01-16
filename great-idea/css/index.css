@@ -211,21 +211,70 @@ footer {
 	width: 100%;
 }
 
-.p2-title {
+.p2-title , .p2-title p{
+	width: 100%;
+	margin-top: 3%;
+}
+
+.p2-main-over {
 	width: 100%;
 }
 
 .p2-main-1{
 	display: flex;
-
+	
 }
+
+.p2-main-1 .p2-a, .p2-1{
+	border: 1px solid black;
+	padding: 3%;
+	margin: 2%;
+	background: lightgrey;
+}
+
 
 .p2-main-2{
 	display: flex;
+	
+}
 
+.p2-main-2 .p2-2, .p2-3{
+	border: 1px solid black;
+	padding: 3%;
+	margin: 2%;
+	background: lightgrey;
 }
 
 .p2-main-3{
 	display: flex;
+	
+}
 
+.p2-main-3 .p2-4, .p2-5{
+	border: 1px solid black;
+	padding: 3%;
+	margin: 2%;
+	background: lightgrey;
+}
+
+.facts {
+	display: flex;
+}
+
+.facts-text {
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+	width: 45%;
+
+}
+ul {
+	list-style-type: circle;
+	margin: 7%;
+}
+
+.services-info-img{
+	width: 46%;
+	margin-left: 3%;
+	margin-top: 2%;
 }
