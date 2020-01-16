@@ -122,10 +122,16 @@ header nav a:hover{
 
 .cta {
 	display: flex;
-	padding: 9%;
+	justify-content: space-evenly;
+	padding: 10% 0;
 	width: 100%;
 }
 
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 .cta img{
 	width: 44%;
 }
@@ -146,7 +152,6 @@ button {
 	border: 1px solid black;
 	border-radius: 25px;
 	text-align: center;
-	margin-left: 20%;
 }
 
 button:hover {
@@ -198,5 +203,29 @@ footer {
 	justify-content: center;
 	padding: 5%;
 	margin-bottom: 7%;
-	
+}
+
+/* Start of the Services page CSS styling*/
+
+.services-header-img {
+	width: 100%;
+}
+
+.p2-title {
+	width: 100%;
+}
+
+.p2-main-1{
+	display: flex;
+
+}
+
+.p2-main-2{
+	display: flex;
+
+}
+
+.p2-main-3{
+	display: flex;
+
 }
