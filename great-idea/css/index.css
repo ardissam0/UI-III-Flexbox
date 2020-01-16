@@ -77,39 +77,36 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    
 }
 
 /* Your code starts here! */
 
-body {
-	margin: 0 auto;
-	width: 70%;
-	margin-top: 50px;
+.container {
 }
 
 header {
-	display: inline-block;
+	width: 100%;
 	background-color: coral;
 	opacity: 70%;
 	padding: 10px;
 	position: fixed;
 }
 
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 header nav a{
-	display: inline-block;
-	margin: 0 30px;
 	color: black;
 }
-
 header .logo {
-	margin-left: 807px;
-	margin-top: -50px;
-	display: inline-block;
+	width: 15%;
 }
 
 header nav a{
-	margin: 0 30px;
+	
 	text-decoration: none;
 }
 
@@ -121,20 +118,26 @@ header nav a:hover{
 	color: white;
 }
 
+.cta {
+	display: flex;
+}
+
+.cta img{
+	max-width: 45%;
+}
+
 h1 {
+	display: flex;
+	
 	text-transform: uppercase;
 	font-size: 80px;
-	text-align: center;
-	margin-left: 30%;
-	margin-bottom: 5px;
+	max-width: 45%;
+	
 }
 
 button {
 	padding: 5px 40px;
-	margin-bottom: 65px;
-	margin-top: 20px;
 	font-size: 15px;
-	margin-left: 42%;
 	background-color: white;
 	border: 1px solid black;
 	border-radius: 25px;
@@ -144,55 +147,32 @@ button:hover {
 	background-color: coral;
 	color: white;
 }
-.m1 {
-	display: inline-block;
-}
-
-.m1 img {
-	margin-left: 60%;
-	margin-top: 110px;
-}
 
 hr {
-	width: 95%;
-	margin: 0;
-	background-color: black;
 	border: 1px solid black;
-}
-.maincontent {
-	display: inline-block;
-	margin-top: 20px;
-}
-
-.p11 {
-	display: inline-block;
-	margin-top: 40px;
-	margin-bottom: 15px;
-	margin-right: 4px;
-	width: 47%;
-}
-
-
-.maincontent2 {
-	display: inline-block;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.maincontent2 img{
 	width: 95%;
+	background-color: black;
+	
+}
+.top-content {
+	display: flex;
+	justify-content:space-between;
 }
 
-.p222{
-	display: inline-block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 31%;
-	margin-left: 3px;
+.middle-img {
+	width: 100%;
 }
 
+.bottom-content {
+	display:flex;
+	justify-content: space-between;
+}
+
+.contact {
+
+}
 .contact h3 {
-	margin-top: 50px;
+	
 }
 address {
 	line-height: 1.5;
@@ -202,8 +182,7 @@ address {
 }
 
 footer {
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 100px;
-	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	
 }
