@@ -163,10 +163,9 @@ hr {
 	border: 1px solid black;
 	width: 100%;
 	background-color: black;
+	margin-top: 3%;
 }
 
-.main-content {
-}
 
 .top-content {
 	display: flex;
@@ -188,9 +187,7 @@ hr {
 .contact {
 	margin-top: 3%;
 }
-.contact h3 {
-	
-}
+
 address {
 	line-height: 1.5;
 }
@@ -207,8 +204,22 @@ footer {
 
 /* Start of the Services page CSS styling*/
 
+
+.nav2 {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav2 nav a {
+	margin-left: 8%;
+}
+.logo2 {
+	width: 50%;
+	margin-left: 20%;
+}
 .services-header-img {
 	width: 100%;
+	margin-top: 7%
 }
 
 .p2-title , .p2-title p{
@@ -259,6 +270,7 @@ footer {
 
 .facts {
 	display: flex;
+	margin-top: 2%;
 }
 
 .facts-text {
@@ -277,4 +289,9 @@ ul {
 	width: 46%;
 	margin-left: 3%;
 	margin-top: 2%;
+}
+
+.f2 {
+	margin-top: 5%;
+	margin-bottom: 7%;
 }
